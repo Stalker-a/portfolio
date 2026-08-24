@@ -5,7 +5,7 @@ export const siteConfig = {
   github: null as string | null,
   linkedin: null as string | null,
   name: "Yaroslav",
-  siteUrl: null as string | null,
+  siteUrl: "https://webwire-portfolio.vercel.app",
   telegram: null as string | null,
   title: "Yaroslav | AI Bots, Automation & Custom Software",
 } as const;
