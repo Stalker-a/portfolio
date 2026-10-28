@@ -3,6 +3,7 @@ import { ArrowDown, ArrowRight, ArrowUpRight, Check, ChevronLeft } from "lucide-
 import Link from "next/link";
 
 import { AutomationArchitecture } from "@/components/case-studies/automation-architecture";
+import { Footer } from "@/components/layout/footer";
 import { Navbar } from "@/components/layout/navbar";
 import { ProjectGallery } from "@/components/projects/project-gallery";
 import { Badge } from "@/components/ui/badge";
@@ -512,6 +513,7 @@ export default function TelegramAutomationCaseStudyPage() {
           </Container>
         </Section>
       </main>
+      <Footer />
     </>
   );
 }

@@ -3,6 +3,7 @@ import { ArrowDown, ArrowRight, ArrowUpRight, Check, ChevronLeft } from "lucide-
 import Link from "next/link";
 
 import { HomeLabArchitecture } from "@/components/case-studies/home-lab-architecture";
+import { Footer } from "@/components/layout/footer";
 import { Navbar } from "@/components/layout/navbar";
 import { ProjectGallery } from "@/components/projects/project-gallery";
 import { Badge } from "@/components/ui/badge";
@@ -538,6 +539,7 @@ export default function PrivateCloudHomeLabCaseStudyPage() {
           </Container>
         </Section>
       </main>
+      <Footer />
     </>
   );
 }
