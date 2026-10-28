@@ -135,7 +135,7 @@ export default function ThreeDDesignCaseStudyPage() {
                     Live Project
                   </Badge>
                   <Button
-                    href="https://3ddesign.org.kz/"
+                    href={project.liveUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     variant="secondary"

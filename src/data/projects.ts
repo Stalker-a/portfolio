@@ -34,7 +34,7 @@ export const projects = [
       "Telegram integration",
       "Responsive web interface",
     ],
-    githubUrl: null,
+    githubUrl: "https://github.com/Stalker-a/printdesign-3d",
     images: [
       {
         src: "/images/projects/3d-design-platform/01-homepage.png",
@@ -53,7 +53,7 @@ export const projects = [
         alt: "3D Design AI consultant conversation",
       },
     ],
-    liveUrl: "https://3ddesign.org.kz/",
+    liveUrl: "https://printdesign-3d-three.vercel.app/",
     number: "01",
     problem:
       "Brings 3D production services, consultation and request routing into one clear customer journey.",

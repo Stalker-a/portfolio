@@ -1,7 +1,10 @@
+import { ArrowUpRight } from "lucide-react";
+
 import { ContactForm } from "@/components/contact/contact-form";
 import { Container } from "@/components/ui/container";
 import { Section } from "@/components/ui/section";
 import { SectionHeading } from "@/components/ui/section-heading";
+import { siteConfig } from "@/data/site";
 
 const projectAreas = [
   "Web applications",
@@ -49,6 +52,20 @@ export function Contact() {
                 </li>
               ))}
             </ul>
+
+            {siteConfig.telegram ? (
+              <div className="mt-12 max-w-xl border-t pt-7">
+                <p className="font-mono text-[10px] tracking-[0.12em] text-[var(--accent)]">PREFER TO MESSAGE DIRECTLY?</p>
+                <a
+                  href={siteConfig.telegram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-flex min-h-10 items-center gap-2 rounded-lg border bg-[var(--surface)] px-3 text-sm font-medium text-[var(--foreground)] transition-colors hover:border-[var(--muted-foreground)]"
+                >
+                  Message me on Telegram <ArrowUpRight size={15} aria-hidden="true" />
+                </a>
+              </div>
+            ) : null}
 
             <div className="mt-12 max-w-xl border-t pt-7">
               <p className="font-mono text-[10px] tracking-[0.12em] text-[var(--accent)]">WHAT HAPPENS NEXT</p>
